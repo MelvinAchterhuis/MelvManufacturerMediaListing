@@ -1,0 +1,9 @@
+.product-manufacturer {
+    width: 100%;
+    padding-bottom: $spacer;
+    display: flex;
+    justify-content: flex-end;
+    .product-manufacturer-media {
+        max-width: 128px;
+    }
+}

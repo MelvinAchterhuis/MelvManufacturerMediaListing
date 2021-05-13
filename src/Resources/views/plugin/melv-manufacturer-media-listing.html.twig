@@ -1,0 +1,15 @@
+{% if product.manufacturer.media.url %}
+    <div class="product-manufacturer">
+        {% sw_thumbnails 'product-manufacturer' with {
+            media: product.manufacturer.media,
+            sizes: {
+                'default': '100px'
+            },
+            attributes: {
+                'class': 'product-manufacturer-media',
+                'alt': (product.manufacturer.media.translated.alt ?: ''),
+                'title': (product.manufacturer.media.translated.title ?: '')
+            }
+        } %}
+    </div>
+{% endif %}
