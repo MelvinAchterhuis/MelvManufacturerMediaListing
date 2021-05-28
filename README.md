@@ -1,5 +1,7 @@
 ## A plugin for [Shopware 6](https://github.com/shopware/platform)
 
+Show manufacturer media in the listing
+
 ![](https://i.imgur.com/0ut0SGi.png)
 
 ## Requirements
